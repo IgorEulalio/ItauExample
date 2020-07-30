@@ -1,6 +1,6 @@
 package com.example.itau.usecase;
 
-import com.example.itau.dto.InsumoParaCalculoDTO;
+import com.example.itau.entrypoint.dto.InsumoParaCalculoDTO;
 import com.example.itau.entrypoint.dto.ImpostoDTO;
 import com.example.itau.usecase.adapter.CalculaImpostoCarros;
 import com.example.itau.usecase.adapter.CalculaImpostoImoveis;
@@ -21,6 +21,7 @@ public class CalculoImpostoUseCase {
     private CalculaImpostoPoupancaEInvestimentos calculaInvestimentos;
 
     public ImpostoDTO calculaImposto(InsumoParaCalculoDTO dto) {
+        
         Double restituicaoCarros = calculaCarros.calculaImpostoVeiculos(dto.carros);
         Double restituicaoImoveis = calculaImoveis.calculaImpostoImoveis(dto.imoveis);
         Double restituicaoPoupancaEInvestimentos = calculaInvestimentos.calculaInvestimentos(dto.dinheiroInvestido, dto.dinheiroPoupanca);

@@ -9,8 +9,7 @@ import java.util.List;
 public class CalculaImpostoCarros {
     public Double calculaImpostoVeiculos(List<CarroDTO> carros) {
 
-        double restituicao = carros.stream().mapToInt(c -> (int) (c.tabelaFipe * 0.01)).sum();
-
+        double restituicao = carros.stream().mapToDouble(c -> (int) (c.tabelaFipe * 0.01)).sum();
         return restituicao;
     }
 }

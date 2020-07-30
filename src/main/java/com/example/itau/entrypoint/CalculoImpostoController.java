@@ -1,10 +1,9 @@
 package com.example.itau.entrypoint;
 
-import com.example.itau.dto.InsumoParaCalculoDTO;
+import com.example.itau.entrypoint.dto.InsumoParaCalculoDTO;
 import com.example.itau.entrypoint.dto.ImpostoDTO;
 import com.example.itau.usecase.CalculoImpostoUseCase;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

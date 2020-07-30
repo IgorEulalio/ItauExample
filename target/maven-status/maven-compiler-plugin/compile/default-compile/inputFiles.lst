@@ -1,1 +1,11 @@
-/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/Projeto/Itau/para/apresenta/o/da/esteira/de/testes/Application.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/Application.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/entrypoint/dto/ImovelDTO.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/usecase/CalculoImpostoUseCase.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/entrypoint/CalculoImpostoController.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/entrypoint/dto/CarroDTO.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/entrypoint/dto/ImpostoDTO.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/entrypoint/dto/TipoResidencia.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/usecase/adapter/CalculaImpostoCarros.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/usecase/adapter/CalculaImpostoImoveis.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/dto/InsumoParaCalculoDTO.java
+/Users/igoreulalio/Downloads/ItauExample/src/main/java/com/example/itau/usecase/adapter/CalculaImpostoPoupancaEInvestimentos.java
