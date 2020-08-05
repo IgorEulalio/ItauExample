@@ -1,3 +1,4 @@
-com\example\itau\ApplicationTests.class
-com\example\itau\usecase\adapter\CalculoImpostoCarrosTest.class
-com\example\itau\usecase\CalculoImpostoControllerTest.class
+MyStepdefs.class
+com/example/itau/usecase/CalculoImpostoControllerTest.class
+com/example/itau/ApplicationTests.class
+com/example/itau/usecase/adapter/CalculoImpostoCarrosTest.class

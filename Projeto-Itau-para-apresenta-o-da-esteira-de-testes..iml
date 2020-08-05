@@ -82,6 +82,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:5.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin:5.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin-vintage:5.5.0" level="project" />
@@ -90,7 +91,8 @@
     <orderEntry type="library" name="Maven: io.cucumber:datatable:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-plugin:5.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:docstring:5.5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-junit:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-picocontainer:5.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.picocontainer:picocontainer:2.15" level="project" />
   </component>
 </module>

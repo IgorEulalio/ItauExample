@@ -1,9 +1,11 @@
 package com.example.itau.entrypoint.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Builder;
 
 import javax.validation.constraints.NotNull;
 
+@Builder
 public class ImovelDTO {
 
     @NotNull

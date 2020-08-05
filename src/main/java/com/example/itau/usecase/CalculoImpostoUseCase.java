@@ -11,17 +11,20 @@ import org.springframework.stereotype.Component;
 @Component
 public class CalculoImpostoUseCase {
 
-    @Autowired
     private CalculaImpostoCarros calculaCarros;
 
-    @Autowired
     private CalculaImpostoImoveis calculaImoveis;
 
-    @Autowired
     private CalculaImpostoPoupancaEInvestimentos calculaInvestimentos;
 
+    public CalculoImpostoUseCase(CalculaImpostoCarros calculaCarros, CalculaImpostoImoveis calculaImoveis, CalculaImpostoPoupancaEInvestimentos calculaInvestimentos) {
+        this.calculaCarros = calculaCarros;
+        this.calculaImoveis = calculaImoveis;
+        this.calculaInvestimentos = calculaInvestimentos;
+    }
+
     public ImpostoDTO calculaImposto(InsumoParaCalculoDTO dto) {
-        
+
         Double restituicaoCarros = calculaCarros.calculaImpostoVeiculos(dto.carros);
         Double restituicaoImoveis = calculaImoveis.calculaImpostoImoveis(dto.imoveis);
         Double restituicaoPoupancaEInvestimentos = calculaInvestimentos.calculaInvestimentos(dto.dinheiroInvestido, dto.dinheiroPoupanca);
@@ -29,5 +32,7 @@ public class CalculoImpostoUseCase {
         var restituicaoFinal = restituicaoCarros + restituicaoImoveis + restituicaoPoupancaEInvestimentos;
         ImpostoDTO imposto = new ImpostoDTO(restituicaoFinal);
         return imposto;
-    };
+    }
+
+    ;
 }
