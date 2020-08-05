@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.example.itau.Projeto.Itau.para.apresenta.o.da.esteira.de.testes.ApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.083 s - in com.example.itau.Projeto.Itau.para.apresenta.o.da.esteira.de.testes.ApplicationTests
