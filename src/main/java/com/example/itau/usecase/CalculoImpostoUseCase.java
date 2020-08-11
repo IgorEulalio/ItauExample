@@ -5,6 +5,7 @@ import com.example.itau.entrypoint.dto.ImpostoDTO;
 import com.example.itau.usecase.adapter.CalculaImpostoCarros;
 import com.example.itau.usecase.adapter.CalculaImpostoImoveis;
 import com.example.itau.usecase.adapter.CalculaImpostoPoupancaEInvestimentos;
+import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -33,6 +34,4 @@ public class CalculoImpostoUseCase {
         ImpostoDTO imposto = new ImpostoDTO(restituicaoFinal);
         return imposto;
     }
-
-    ;
 }

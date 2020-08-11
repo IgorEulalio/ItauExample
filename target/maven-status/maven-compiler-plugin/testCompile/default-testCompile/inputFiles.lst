@@ -1,4 +1,3 @@
-/Users/igoreulalio/Downloads/ItauExample/src/test/java/MyStepdefs.java
-/Users/igoreulalio/Downloads/ItauExample/src/test/java/com/example/itau/usecase/adapter/CalculoImpostoCarrosTest.java
-/Users/igoreulalio/Downloads/ItauExample/src/test/java/com/example/itau/usecase/CalculoImpostoControllerTest.java
-/Users/igoreulalio/Downloads/ItauExample/src/test/java/com/example/itau/ApplicationTests.java
+C:\Users\Leonardo\workspace\ItauExample\src\test\java\br\com\api\body\BodyCalculoImposto.java
+C:\Users\Leonardo\workspace\ItauExample\src\test\java\br\com\api\runners\RunnerTest.java
+C:\Users\Leonardo\workspace\ItauExample\src\test\java\br\com\api\steps\CalculoImpostoTest.java

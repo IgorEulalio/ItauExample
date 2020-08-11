@@ -8,11 +8,12 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features="C:\\Users\\Leonardo\\workspace\\ItauExample\\src\\test\\resource\\features\\CalculoImpostoRenda.feature",
         glue = "br.com.api.steps",
-        strict = false,
         //tags = {"@unitario", "~@funcional"},
-        plugin = {"progress"},
+        plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
         monochrome = true,
-        snippets = CucumberOptions.SnippetType.CAMELCASE
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        dryRun = false,
+        strict = false
 )
 public class RunnerTest {
 }

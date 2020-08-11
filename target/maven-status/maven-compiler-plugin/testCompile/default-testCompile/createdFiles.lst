@@ -1,4 +1,3 @@
-MyStepdefs.class
-com/example/itau/usecase/CalculoImpostoControllerTest.class
-com/example/itau/ApplicationTests.class
-com/example/itau/usecase/adapter/CalculoImpostoCarrosTest.class
+br\com\api\steps\CalculoImpostoTest.class
+br\com\api\body\BodyCalculoImposto.class
+br\com\api\runners\RunnerTest.class
